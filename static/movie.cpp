@@ -168,8 +168,8 @@ void FourLines()
 	maxHeight2 = maxWidth2 = 0;
 	minHeight2 = 1555;
 	minWidth2 == 852;
-	float a, b, c, d, e, f, g, h, A, B, C, D;
-	a = b = c = d = e = f = g = h = A = B = C = D = 0;
+	Point a, b, c, d, e, f, g, h, A, B, C, D;
+	a.x=a.y = b.x=b.y = c.x =c.y= d.x=d.y = e.x=e.y = f.x=f.y = g.x=g.y = h.x=h.y = A.x=A.y = B.x=B.y = C.x=C.y = D.x=D.y = 0;
 	for (int i = 0; i < lineNum; i++)
 	{
 		if (slope[i] > 5)
